@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+  <title>Address-Book</title>
+</head>
+
+<body>
+  <header class="header-content header">
+    <div class="logo-content">
+      <img class ="my-logo" src="images/books-260nw-436989757.jpg" alt="_">
+      <div>
+        <span class="emp-text">ADDRESS</span><br>
+        <span class="emp-text emp-payroll">BOOK</span>
+      </div>
+    </div>
+  </header>
+      <div class="form-head">PERSON ADDRESS FORM</div>
+      <div class="row-content">
+        <label class="label text" for="name">Fullname</label>
+        <input class="input" type="text" id="name" name="name" placeholder="Your name.." required>
+      </div>
+      <div class="row-content">
+        <label class="label text" for="address">Address</label>
+        <input class="input" type="text" id="address" name="address" placeholder="Address.." required>
+      </div>
+      <div class="row-content">
+        <label class="label text" for="select-city">Select City</label>
+        <div>
+          <select id="City" name="City">
+            <option value="select">select city</option>
+            <option value="1">Ahmedabad</option>
+            <option value="2">Agra</option>
+            <option value="3">Bhopal</option>
+            <option value="4">Bangalore</option>
+            <option value="5">Chandigarh</option>
+            <option value="6">Chennai</option>
+            <option value="7">Dehra-dun</option>
+            <option value="8">Gurgaon</option>
+            <option value="9">Girdi</option>
+            <option value="10">Jamshedpur</option>
+            <option value="11">Dhanbad</option>
+            <option value="12">Wassepur</option>
+          </select>
+          <select id="state" name="State">
+            <option value="select">select state</option>
+            <option value="KA">Karnatak</option>
+            <option value="KL">Kerala</option>
+            <option value="MP">Madhya-Pradesh</option>
+            <option value="UP">Uttar-Pradesh</option>
+            <option value="AP">Andhra-Pradesh</option>
+            <option value="TN">Tamil-Nadu</option>
+            <option value="BR">Bihar</option>
+          </select>
+          <select id="zip-code" name="Zip-code">
+            <option value="select">select zip-code</option>
+            <option value="590010">590010</option>
+            <option value="590014">590014</option>
+            <option value="590013">590013</option>
+            <option value="590012">590012</option>
+            <option value="590011">590011</option>
+          </select>
+        </div>
+      </div>
+      <div class="row-content">
+        <label class="label text" for="phone-number">Phone-Number</label>
+        <input class="input" type="text" id="phone-number" name="phone-number" placeholder="phone-number.." required>
+      </div>
+      <div class="buttonParent">
+        <div class="submit-reset">
+          <button type="Add" class="button AddButton" id="AddButton">Add</button>
+          <button type="reset" class="resetButton button">Reset</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
